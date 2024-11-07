@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: CI-CD-Pipeline
-        image: maven:v1
+        image: maven:replaceImageTag
         ports:
         - containerPort: 8080
